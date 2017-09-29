@@ -9,4 +9,4 @@ RUN chmod +x /var/local/Run.sh
 
 
 #CMD ["java -jar /var/local/test-1.0-SNAPSHOT.jar"]
-CMD ["Run.sh"]
+CMD ["/var/local/Run.sh"]
